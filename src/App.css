@@ -1,0 +1,48 @@
+:root {
+  --mainBlue:#2A2A72;
+  --lightBlue:#009FFD;
+  --mainWhite:#F3F3F3;
+  --mainDark:#232528;
+  --mainYellow:#FFA400;
+}
+body{
+  font-family:"Fjalla One", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+.text-title{
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-title-TH{
+  font-family: "Prompt", sans-serif;
+  letter-spacing: 0.1rem;
+}
+.text-thai{
+  font-family: 'Taviraj', serif;
+  letter-spacing: 0.1rem;
+}
+.text-blue{
+  color: var(--mainBlue);
+}
+.text-brigth{
+  color: var(--lightBlue);
+}
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite);
+}
+.cart-icon{
+  cursor: poiter;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
